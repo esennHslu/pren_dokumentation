@@ -1,0 +1,69 @@
+\documentclass{article}
+
+\usepackage[ngerman]{babel}
+\usepackage{datetime}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float} % For forcing the position of elements
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage{fancyhdr} % For custom headers and footers
+\usepackage{titlesec}  % For automatic new page at sections
+\usepackage{pdflscape}
+
+% Set the Date Format
+\newdateformat{myformat}{\THEDAY{ten }\monthname[\THEMONTH], \THEYEAR}
+
+% Ensure a new page is started before every section
+\newcommand{\sectionbreak}{\clearpage}
+\newcommand{\thedate}{\today}
+
+% Set up fancyhdr to customize the footer
+\pagestyle{fancy}
+\fancyhf{} % Clear default settings
+\fancyfoot[C]{Pren Testat 1 Gruppe 16 - \thedate} % Add title and date to the center of the footer
+\fancyfoot[R]{\thepage} % Page number on the right
+
+
+
+\title{Pren Testat 1 Gruppe 16}
+\author{Moritz Drillier \and Robin Venetz \and Benjamin Kuster \and Fabio Haueter \and Jonas Zimmermann \and Enya Senn}
+\date{\thedate}
+
+\begin{document}
+\maketitle
+
+\tableofcontents 
+
+\begin{abstract}
+Abstrakt
+\end{abstract}
+
+\section{Einleitung}
+Das ist die Einleitung.
+\section{Problemstellung}
+Das ist die Problemstellung.
+
+
+
+\begin{landscape} % Begin landscape mode
+    \section{Anforderungsliste}
+    \begin{table}[H] % Use [H] to force the table position
+        \centering
+        \begin{tabular}{llp{17cm}rr}
+            \textbf{Nr.} & \textbf{M/F/K} & \textbf{Thema/Frage} & \textbf{Erläuterung} & \textbf{Verantwortlich} \\
+            1 &  & Gerät & &   \\
+            1.1 & F & Das Gerät muss eine Eigenkonstruktion sein. Einzelne Systemkomponenten, wie z.B. Servos,
+            Motoren, Mikrocontrollerboard, Kamera u.a. dürfen zugekauft und eingesetzt werden. Es
+            dürfen Software-Komponenten/-Services von Fremd-Herstellern verwendet werden. & F &   \\
+        \end{tabular}
+        \caption{Anforderungsliste}
+        \label{tab:my_label}
+    \end{table}
+\end{landscape} % End landscape mode
+
+
+
+
+
+\end{document}
