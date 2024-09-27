@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex Pren_Doku"] 1727428365.0521 "Pren_Doku.aux" "Pren_Doku.bbl" "Pren_Doku" 1727428365.89036 0
-  "/usr/local/texlive/2024/texmf-dist/bibtex/bib/gloss/sample.bib" 1136766823 2721 b88105703bd616b4f9867992219afb8a ""
+["bibtex Pren_Doku"] 1727428815.9995 "Pren_Doku.aux" "Pren_Doku.bbl" "Pren_Doku" 1727428816.76625 0
+  "./Quellen.bib" 1727428713.62984 181 bbb7f8c784b9e1fdcd93e818f25a6c06 ""
   "/usr/local/texlive/2024/texmf-dist/bibtex/bst/base/alpha.bst" 1292289607 23907 a5f93555796fb564b924339521f10a7c ""
-  "Pren_Doku.aux" 1727428365.69327 1976 a7110c92abe620615b81f0d397f01b31 "pdflatex"
+  "Pren_Doku.aux" 1727428816.57896 2037 f121df2b42e58c08a27cfd254f9ef71f "pdflatex"
   (generated)
   "Pren_Doku.bbl"
   "Pren_Doku.blg"
   (rewritten before read)
-["pdflatex"] 1727428365.12837 "/Users/esenn/git/pren_dokumentation/Pren_Doku.tex" "Pren_Doku.pdf" "Pren_Doku" 1727428365.89048 0
-  "/Users/esenn/git/pren_dokumentation/Pren_Doku.tex" 1727428363.93086 2215 e7ac4ce6fa1caec535838ef893f8e9cc ""
+["pdflatex"] 1727428816.07226 "/Users/esenn/git/pren_dokumentation/Pren_Doku.tex" "Pren_Doku.pdf" "Pren_Doku" 1727428816.76636 0
+  "/Users/esenn/git/pren_dokumentation/Pren_Doku.tex" 1727428814.31798 2283 0f99438753ca7b7100bc8f77d99c688c ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -27,6 +27,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1136768653 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1136768653 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1136768653 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
@@ -34,6 +35,7 @@
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1248133631 32362 179c33bbf43f19adbb3825bb4e36e57a ""
   "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
+  "/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1248133631 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/local/texlive/2024/texmf-dist/tex/generic/babel-german/ngerman.ldf" 1705784828 2289 4c0bd5448e6c4088c5170e3997082036 ""
@@ -113,13 +115,13 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1727427296 8221429 40177c5c3be9b3f6921bef96e6751eaf ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "Images/Risikomatrix.png" 1727427646.39241 223133 955aa09559ebda1aea8fbe4639080c15 ""
-  "Pren_Doku.aux" 1727428365.69327 1976 a7110c92abe620615b81f0d397f01b31 "pdflatex"
-  "Pren_Doku.bbl" 1727428365.12649 49 0eba253fc001332e731e8aba3f23127b "bibtex Pren_Doku"
-  "Pren_Doku.lof" 1727428365.69424 113 ef949b26c21f2e9dde537353965aad29 "pdflatex"
-  "Pren_Doku.lot" 1727428365.69427 108 92e14f32e0286264ad2a6acd2977e635 "pdflatex"
-  "Pren_Doku.out" 1727428365.69397 1416 8f08f4210e09bb77cf61702435da7178 "pdflatex"
-  "Pren_Doku.tex" 1727428363.93086 2215 e7ac4ce6fa1caec535838ef893f8e9cc ""
-  "Pren_Doku.toc" 1727428365.6942 899 c318f80050c4d0f06c14af0c2f4e3553 "pdflatex"
+  "Pren_Doku.aux" 1727428816.57896 2037 f121df2b42e58c08a27cfd254f9ef71f "pdflatex"
+  "Pren_Doku.bbl" 1727428816.07053 193 c62d534827b40da3f7c958bcfa2b4f34 "bibtex Pren_Doku"
+  "Pren_Doku.lof" 1727428816.57989 113 ef949b26c21f2e9dde537353965aad29 "pdflatex"
+  "Pren_Doku.lot" 1727428816.57992 108 92e14f32e0286264ad2a6acd2977e635 "pdflatex"
+  "Pren_Doku.out" 1727428816.57969 1416 8f08f4210e09bb77cf61702435da7178 "pdflatex"
+  "Pren_Doku.tex" 1727428814.31798 2283 0f99438753ca7b7100bc8f77d99c688c ""
+  "Pren_Doku.toc" 1727428816.57987 899 c318f80050c4d0f06c14af0c2f4e3553 "pdflatex"
   (generated)
   "Pren_Doku.aux"
   "Pren_Doku.lof"

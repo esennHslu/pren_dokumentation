@@ -215,6 +215,7 @@ OUTPUT Pren_Doku.lot
 INPUT ./Pren_Doku.bbl
 INPUT ./Pren_Doku.bbl
 INPUT Pren_Doku.bbl
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT Pren_Doku.aux
 INPUT ./Pren_Doku.out
 INPUT ./Pren_Doku.out
@@ -225,3 +226,4 @@ INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
+INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
