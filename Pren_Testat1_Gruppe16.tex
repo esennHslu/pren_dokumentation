@@ -50,12 +50,24 @@ Das ist die Problemstellung.
     \section{Anforderungsliste}
     \begin{table}[H] % Use [H] to force the table position
         \centering
-        \begin{tabular}{llp{17cm}rr}
-            \textbf{Nr.} & \textbf{M/F/K} & \textbf{Thema/Frage} & \textbf{Erläuterung} & \textbf{Verantwortlich} \\
-            1 &  & Gerät & &   \\
-            1.1 & F & Das Gerät muss eine Eigenkonstruktion sein. Einzelne Systemkomponenten, wie z.B. Servos,
+        \begin{tabular}{llp{4cm}p{15cm}c}
+            \textbf{Nr.} & \textbf{M/F/K} & \textbf{Thema/Frage} & \textbf{Erläuterung, Werte, Daten} & \textbf{Verantwortlich} \\
+            \\
+            \textbf{1} &  & \textbf{Gerät} & &   \\
+            1.1 & F & Bauweise & Das Gerät muss eine Eigenkonstruktion sein. Einzelne Systemkomponenten, wie z.B. Servos,
             Motoren, Mikrocontrollerboard, Kamera u.a. dürfen zugekauft und eingesetzt werden. Es
-            dürfen Software-Komponenten/-Services von Fremd-Herstellern verwendet werden. & F &   \\
+            dürfen Software-Komponenten/-Services von Fremd-Herstellern verwendet werden. & E, I, M  \\ 
+            1.2 & M & Geräteabmessung & l: 30 cm, b: 30 cm, h: 80 cm & M \\
+            1.3 & M & Maximales Gewicht & 2kg & M \\
+            1.4 & F & Startbefehl & Startknopf / Taster / Schalter & E, I \\
+            \\
+            \textbf{2} & & \textbf{Randbedingungen} \\
+            2.1 & F & Wegpunkte & Vollkreis, weiss, D = 7 - 12 cm & Doz. \\
+            2.2 & F & Verbindungslinien Länge & 0.5 - 2 m & Doz. \\
+            2.3 & F & Verbindungslinien Breite & 20 mm +/- 5 mm & Doz. \\
+            \\
+            2.4 & F & Abmessung Hindernis & 135 x 38 x 60 mm, je +/- 15 mm & Doz. \\
+            2.5 & F & Gewicht Hindernis & ca. 200 g & Doz. \\
         \end{tabular}
         \caption{Anforderungsliste}
         \label{tab:my_label}
