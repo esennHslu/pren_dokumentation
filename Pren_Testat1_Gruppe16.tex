@@ -37,15 +37,74 @@
 
 \tableofcontents 
 
-\begin{abstract}
-Abstrakt
-\end{abstract}
 
-\section{Einleitung}
-Das ist die Einleitung.
-\section{Problemstellung}
-Das ist die Problemstellung.
+\section{Zeitplan}
 
+\section{Teammitglieder}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Images/Pren_Gruppe.png}
+    \caption{Teammitglieder}
+    \label{fig:enter-label}
+\end{figure}
+
+
+\section{Aufgabenstellung}
+In diesem Projekt wird ein autonomes Fahrzeug entwickelt, das sich in einem vorgegebenen Netzwerk von Wegpunkten (Nodes) und Kanten selbstständig orientieren und den optimalen Weg vom Start- zum Zielpunkt finden muss. Dabei müssen mehrere Herausforderungen bewältigt werden: Hindernisse auf der Strecke müssen erkannt, aktiv aufgehoben und an derselben Stelle wieder korrekt platziert werden. Zusätzlich dürfen gesperrte Wegpunkte (Nodes), die während des Fahrprozesses durch Markierungen gekennzeichnet werden, nicht befahren werden. Entfernte Kanten, die im Voraus nicht bekannt sind, werden vollständig aus dem Netz entfernt und sind für das Fahrzeug unsichtbar, was eine dynamische Anpassung der Routenplanung erfordert.
+
+\hfill \break
+Die Aufgabe erfordert eine präzise Pfadplanung, Echtzeit-Sensorverarbeitung sowie die Fähigkeit, auf unerwartete Änderungen im Netzwerk zu reagieren. Ziel ist es, dass das Fahrzeug den kürzesten und effizientesten Weg innerhalb eines komplexen, sich verändernden Streckennetzes unter Beachtung der vorgegebenen Regeln autonom bewältigt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{Images/Pren_Skizze_Anforderungen.png}
+    \caption{Aufgabenstellung Skizze}
+    \label{fig:enter-label}
+\end{figure}
+
+\begin{landscape} % Begin landscape mode
+\section{Anforderungsliste}
+\begin{longtable}{>{\raggedright\arraybackslash}l>{\raggedright\arraybackslash}l>{\raggedright\arraybackslash}p{4cm}>{\raggedright\arraybackslash}p{15cm}>{\raggedright\arraybackslash}c}
+    \textbf{Nr.} & \textbf{M/F/K} & \textbf{Thema/Frage} & \textbf{Erläuterung, Werte, Daten} & \textbf{Verantwortlich} \\
+    \\
+    \textbf{1} &  & \textbf{Gerät} & &   \\
+    1.1 & F & Bauweise & Das Gerät muss eine Eigenkonstruktion sein. Einzelne Systemkomponenten, wie z.B. Servos,
+    Motoren, Mikrocontrollerboard, Kamera u.a. dürfen zugekauft und eingesetzt werden. Es
+    dürfen Software-Komponenten/-Services von Fremd-Herstellern verwendet werden. & E, I, M  \\ 
+    1.2 & M & Geräteabmessung & l: 30 cm, b: 30 cm, h: 80 cm & M \\
+    1.3 & M & Maximales Gewicht & 2kg & M \\
+    1.4 & M & Kosten & Die Gesamtkosten in der ersten Phase dürfen nicht mehr als 200.- und insgesamt nicht mehr als 500.- sein. & \\
+    1.5 & F & Nachhaltigkeit & Die Nachhaltigkeitsziele 9 sowie 12 müssen eingehalten werden & E, I, M \\
+    1.6 & F & Wahlschalter & Das Fahrzeug muss einen Wahlschalter besitzen, mit welchem man zwischen den Zielen A, B und C wählen kann. & E, I \\
+    1.7 & F & Not-Aus & Das Fahrzeug muss einen immer zugänglichen Not-Aus Schalter besitzen, welcher der mechanisch-dynamische Prozess
+    jederzeit sofort unterbricht. & E, I, M \\
+    1.8 & M & Aufbauzeit & Das Fahrzeug muss innerhalb von 1 Minute auf der Markierung platziert, aufgebaut und betriebsbereit sein. & \\
+    \\
+    \textbf{2} &  & \textbf{Fahrt/Ablauf} & &   \\
+    2.1 & F & Startbefehl & Startknopf / Taster / Schalter & E, I \\
+    2.2 & M & Autonomes Fahren & Beim Befahren der Linie muss immer ein Teil des Fahrzeugs auf der Linie verbleiben (ca. 20mm breite Linie) & E, I \\
+    2.3 & M & Wegpunkte & Es gibt aufgeklebte Wegpunkte, von denen mind. 2 abgefahren werden müssen. & I \\
+    2.4 & M & Fahrzeit & Die Fahrzeit darf maximal 4 Minuten betragen. & \\
+    2.5 & F & Hindernisse & Hindernisse müssen erkannt, aufgehoben und an die selbe Stelle gestellt werden (20mm Toleranz). (Schneepflug/fortschieben nicht zulässig). & E, I, M \\
+    2.6 & F & Sperrungen & Sperrungen müssen erkannt werden und dürfen nicht bewegt werden. & E, M, I \\
+    2.7 & F & Entfernte Routen & Entfernte Routen müssen erkannt und können nicht genutzt werden. & E, I \\
+    2.8 & M & Zielposition & Das Fahrzeug muss in einem Radius von 15 cm um den gewählten Zielpunkt zum Stehen kommen. & E, I \\
+    2.9 & M & Erreichen des Endes & Das Erreichen der Zielposition muss visuell oder akustisch signalisiert werden. & E, I \\
+    \\
+    \textbf{3} & & \textbf{Randbedingungen} \\
+    3.1 & F & Wegpunkte & Vollkreis, weiss, D = 7 - 12 cm & Doz. \\
+    3.2 & F & Verbindungslinien Länge & 0.5 - 2 m & Doz. \\
+    3.3 & F & Verbindungslinien Breite & 20 mm +/- 5 mm & Doz. \\
+    \\
+    3.4 & F & Abmessung Hindernis & 135 x 38 x 60 mm, je +/- 15 mm & Doz. \\
+    3.5 & F & Gewicht Hindernis & ca. 200 g & Doz. \\
+    3.6 & F & Untergrund & Als Untergrund dient der Boden im Foyer vor der Mensa & Doz. \\
+    \\
+    \textbf{4} & & \textbf{Simulation} \\
+    4.1 & M & Art & Kein physischer Prototyp & I \\
+
+\end{longtable}
+\end{landscape} % End landscape mode
 
 \begin{landscape} % Begin landscape mode
 	\section{Technische Recherche}
@@ -92,5 +151,7 @@ Das ist die Problemstellung.
 	\end{longtable}
 \end{landscape} % End landscape mode
 
+\listoffigures % Abbildungsverzeichnis
+\listoftables % Tabellenverzeichnis
 
 \end{document}
